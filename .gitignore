@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# Outputs of the audit scripts
+motion-audit/
+*-sheet.png

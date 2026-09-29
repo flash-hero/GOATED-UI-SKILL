@@ -1,0 +1,26 @@
+{
+  "name": "goated-ui",
+  "version": "1.0.0",
+  "description": "Awwwards-grade front ends for your coding agent: the frontend-atlas skill with 474 verified recipes for motion, scroll, type and interaction (GSAP ScrollTrigger + Lenis, CSS scroll-driven animations, view transitions, text effects, WebGL/R3F, modern CSS, OKLCH color, layout, 30 aesthetic directions), plus browser audit scripts for frame pacing, CLS, overflow and reveals that never fire.",
+  "author": {
+    "name": "Oussama Tabakh",
+    "url": "https://github.com/flash-hero"
+  },
+  "homepage": "https://github.com/flash-hero/GOATED-UI-SKILL",
+  "repository": "https://github.com/flash-hero/GOATED-UI-SKILL",
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "ui",
+    "animation",
+    "motion",
+    "gsap",
+    "scrolltrigger",
+    "lenis",
+    "view-transitions",
+    "css",
+    "webgl",
+    "awwwards",
+    "design"
+  ]
+}

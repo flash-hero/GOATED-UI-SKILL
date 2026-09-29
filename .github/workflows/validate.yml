@@ -1,0 +1,24 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Frontmatter, manifests, paths and links
+        run: node tools/validate.mjs
+      - name: Recipe index is up to date
+        run: |
+          node skills/frontend-atlas/scripts/maintenance/build-index.mjs
+          git diff --exit-code -- skills/frontend-atlas/references/INDEX.md
