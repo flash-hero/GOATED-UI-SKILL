@@ -49,7 +49,7 @@ Most design skills tell your agent what looks good. This one is the implementati
 This portfolio was redesigned end to end with GOATED UI: stacked project panels on CSS sticky with a scrubbed scale (no layout shift), a signature intro that starts writing on first paint, split-line headings, a route curtain, and complete reduced-motion and no-JavaScript fallbacks. Lab numbers after the redesign: largest contentful paint 0.12 to 0.65 s, cumulative layout shift 0.
 
 <p align="center">
-  <img src="assets/showcase-stack.webp" alt="Scrolling through stacked project panels that scale back as the next card docks" width="100%">
+  <a href="https://baiona-fc.vercel.app/"><img src="assets/showcase-stack.webp" alt="Baiona FC: a 10-second scroll from the animated logo intro to the Classement section" width="100%"></a>
 </p>
 
 <p align="center">
